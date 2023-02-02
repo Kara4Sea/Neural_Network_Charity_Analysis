@@ -33,7 +33,7 @@ The purpose of this analysis is to create a binary classifier to predict if an a
   ![optimize_bins](https://user-images.githubusercontent.com/110419577/216454502-43e586d4-1d84-42c4-b886-f9045e549221.png)
   ![optimize_define_model](https://user-images.githubusercontent.com/110419577/216454530-4684fdb4-3dac-4542-b502-b6525787484e.png)
   
-  For my second optimization trial, I added a third hidden layer, bumped up the number of neurons on the two original hidden layers, and increased the number of epochs to 50.
+  For my second optimization trial, I added a third hidden layer, bumped up the number of neurons on the two original hidden layers, and increased the number of epochs to 100.
   
   For my third optimization trial, I decreased the number of neurons on all three hidden layers, changed the number of epochs to 50, and changed all hidden layers to use the activation function of sigmoid.
 
