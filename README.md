@@ -15,6 +15,9 @@ The purpose of this analysis is to create a binary classifier to predict if an a
 
 * Compiling, Training, and Evaluating the Model
   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+   * Neurons - For the hidden layers, I selected 80 neurons for the first and 30 neurons for the second. For the classification output, I selected one neuron to produce a yes or no binary decision.
+   * Layers - I selected two hidden layers. For the classification output, only one layer is needed.
+   * Activation Functions - For the hidden layers, I selected ReLU to enable a nonlinear relationship. For the classification output, I selected sigmoid to provide a probability output.
 
   ![neurons_layers_activation functions](https://user-images.githubusercontent.com/110419577/216454353-5ff9b78f-82dc-40b5-9eb4-78ead396ea1e.png)
 
